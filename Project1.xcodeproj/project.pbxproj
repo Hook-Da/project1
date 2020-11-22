@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8808AA72255C02AA005FB98C /* hulkbw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8808AA6E255C02AA005FB98C /* hulkbw.jpg */; };
+		8808AA73255C02AA005FB98C /* hulkwoman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8808AA6F255C02AA005FB98C /* hulkwoman.jpeg */; };
+		8808AA74255C02AA005FB98C /* hulksentry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8808AA70255C02AA005FB98C /* hulksentry.jpeg */; };
+		8808AA75255C02AA005FB98C /* hulk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8808AA71255C02AA005FB98C /* hulk.jpg */; };
+		8808AA77255C1757005FB98C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8808AA76255C1757005FB98C /* DetailViewController.swift */; };
 		88AC5E9F255B083100088427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC5E9E255B083100088427 /* AppDelegate.swift */; };
 		88AC5EA1255B083100088427 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC5EA0255B083100088427 /* SceneDelegate.swift */; };
 		88AC5EA3255B083100088427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AC5EA2255B083100088427 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8808AA6E255C02AA005FB98C /* hulkbw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulkbw.jpg; sourceTree = "<group>"; };
+		8808AA6F255C02AA005FB98C /* hulkwoman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulkwoman.jpeg; sourceTree = "<group>"; };
+		8808AA70255C02AA005FB98C /* hulksentry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulksentry.jpeg; sourceTree = "<group>"; };
+		8808AA71255C02AA005FB98C /* hulk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulk.jpg; sourceTree = "<group>"; };
+		8808AA76255C1757005FB98C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		88AC5E9B255B083100088427 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AC5E9E255B083100088427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88AC5EA0255B083100088427 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8808AA6D255C02AA005FB98C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				8808AA6E255C02AA005FB98C /* hulkbw.jpg */,
+				8808AA6F255C02AA005FB98C /* hulkwoman.jpeg */,
+				8808AA70255C02AA005FB98C /* hulksentry.jpeg */,
+				8808AA71255C02AA005FB98C /* hulk.jpg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		88AC5E92255B083000088427 = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +80,12 @@
 				88AC5E9E255B083100088427 /* AppDelegate.swift */,
 				88AC5EA0255B083100088427 /* SceneDelegate.swift */,
 				88AC5EA2255B083100088427 /* ViewController.swift */,
+				8808AA76255C1757005FB98C /* DetailViewController.swift */,
 				88AC5EA4255B083100088427 /* Main.storyboard */,
 				88AC5EA7255B083200088427 /* Assets.xcassets */,
 				88AC5EA9255B083200088427 /* LaunchScreen.storyboard */,
 				88AC5EAC255B083200088427 /* Info.plist */,
+				8808AA6D255C02AA005FB98C /* Content */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -125,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AC5EAB255B083200088427 /* LaunchScreen.storyboard in Resources */,
+				8808AA73255C02AA005FB98C /* hulkwoman.jpeg in Resources */,
+				8808AA74255C02AA005FB98C /* hulksentry.jpeg in Resources */,
 				88AC5EA8255B083200088427 /* Assets.xcassets in Resources */,
+				8808AA75255C02AA005FB98C /* hulk.jpg in Resources */,
+				8808AA72255C02AA005FB98C /* hulkbw.jpg in Resources */,
 				88AC5EA6255B083100088427 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +167,7 @@
 				88AC5EA3255B083100088427 /* ViewController.swift in Sources */,
 				88AC5E9F255B083100088427 /* AppDelegate.swift in Sources */,
 				88AC5EA1255B083100088427 /* SceneDelegate.swift in Sources */,
+				8808AA77255C1757005FB98C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
